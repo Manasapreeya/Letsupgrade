@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<style type="text/css">
+		
+*{
+			margin: 1px;
+			padding: 1px;
+
+		}
+		h1{
+			text-align: center;
+			color: brown;
+		}
+		h3{
+			text-align: center;
+		}
+		#table{
+			width: 100%;
+			height: auto;
+			color: grey;
+			text-align: center;
+
+		}
+		input{
+			margin: 5px;
+			padding: 2px;
+			text-align: center;
+		}
+
+
+
+
+
+
+	</style>
+	<title>Assignment 6</title>
+</head>
+<body>
+	<h1> Assignment </h1>
+	<br>
+	<h3> Bus Table </h3>
+	<br>
+	<br>
+	<div class="form">
+		<form>
+			<input type="text" name="t1" placeholder="bus name" id="bname">
+			<input type="text" name="t2" placeholder="source" id="bsource">
+			<input type="text" name="t3"placeholder=" destination" id="bdest">
+			<input type="number" name="t4" placeholder=" bus number" id="bno">
+			<input type="number" name="t5" placeholder="passengers capacity" id="bcap">
+			<button id="badd" onclick="adddata(event)"> ADD </button>
+		</form>
+	</div>
+	<br>
+	<div class="form">
+		<form>
+			<input type="text" name="t6" placeholder="SEARCH" id="bsearch"class="bsearch" onkeyup="searchdata()"/>
+		</form>
+	</div>
+	<table id="table" class="table" border="2px" padding="1px">
+		<thead >
+			<tr> <th> sno </th> <th>bus name </th> <th>source </th> <th>destination </th> <th> number</th> <th>capacity </th>
+			</tr>
+			</thead>
+			<tbody id="tdata" class="tdata">
+			</tbody> 
+	</table>
+
+
+
+<script type="text/javascript" src="class6ass.js"></script>
+</body>
+</html>
