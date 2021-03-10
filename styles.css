@@ -1,0 +1,172 @@
+body{
+	/*background-color: yellow;	*/
+	font-family: 'Montserrat', sans-serif;
+
+}
+h3{
+	font-family: "Montserrat",sans-serif;
+	font-weight: 500;
+	font-style: bolder;
+}
+p{
+	color: #8f8f8f;
+}
+h2{
+	font-family: "Montserrat-bold",sans-serif;
+	font-size: 2.5rem;
+	line-height: 1.5;
+}
+
+#title{
+	background-color: #ff4c68;
+}
+.container-fluid{
+	padding: 3% 15% 7%;
+}
+.headh1{
+	font-family: 'Montserrat-black', sans-serif;
+	font-size: 3.5rem;
+	line-height: 1.5;
+	color: #fff;
+	/*font-style: bolder;*/
+	font-weight: 900;
+
+}
+
+/*nav bar*/
+
+.navbar{
+	padding-bottom: 4.5rem;
+}
+.navbar-brand{
+	font-family: "ubuntu", sans-serif;
+	font-size: 2.5rem;
+	font-weight: bold;
+
+}
+.nav-item{
+	padding: 0 18px;
+}
+.nav-link{
+	font-size: 1.2rem;
+	font-family: "Montserrat-light", sans-serif;
+}
+
+/*buttons*/
+
+.download-button{
+	margin: 5% 3% 5% 0;
+}
+
+/*title image*/
+
+.title-image{
+	width: 21%;
+	transform: rotate(27deg);
+	position: absolute;
+	right: 25%;
+	/*left: -20%;*/
+	
+}
+
+/*section*/
+
+#features{
+	padding: 7% 15%;
+	background-color: #fff;
+	position: relative;
+	z-index: 1;
+	
+}
+.feature-box{
+	text-align: center;
+	padding: 5%;
+}
+.icon{
+	color: #ef8172;
+	margin-bottom: 1rem;
+}
+.icon:hover{
+	color:#ff4c68;
+}
+
+/* Testimonials */
+
+#testimonials{
+	padding: 7% 15%;
+	text-align: center;
+	background-color: #ef8172;
+	color: #fff;
+}
+.testimonial-image{
+	width: 10%;
+	border-radius: 100%;
+	margin: 20px;
+
+}
+#press{
+	background-color: #ef8172;
+	text-align: center;
+	padding-bottom: 3%;
+}
+.presslogo{
+	width: 15%;
+	margin: 20px 20px 50px;
+}
+
+/*pricing*/
+
+#pricing{
+	padding: 100px;
+	text-align: center;
+}
+.pricingcol{
+	padding: 3% 2%;
+}
+#pricing h2{
+	font-weight: 550;
+}
+
+/*cta section*/
+
+#cta{
+	background-color: #ff4c68;
+	text-align: center;
+	color: #fff;
+	padding: 7% 15%;
+}
+#cta h3{
+	font-family: "Montserrat black",sans-serif;
+	font-size: 3rem;
+	line-height: 1.5;
+	font-weight: 600;
+}
+
+/*footer section*/
+
+#footer{
+	padding: 7% 15%;
+	text-align: center;
+
+}
+
+.social{
+	margin: 20px 10px;
+}
+.astyle{
+	text-decoration: none;
+	color: black;
+}
+
+
+@media (max-width: 1028px){
+	.title-image{
+		position: static;
+		transform: rotate(0);
+		width: 60%;
+		margin-top: 5%;
+	}
+	#title{
+		text-align: center;
+	}
+}
